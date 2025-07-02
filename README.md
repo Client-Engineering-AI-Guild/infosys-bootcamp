@@ -1,65 +1,25 @@
- # 🥇 Business Automation - Competitive Insights
+# Intelligent Assistant 
 
-<!--![image](https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/451557/b9fb42fc-4aa1-4010-b850-5c8f20e3e05a)-->
-![image](assets/hypercar3.png)
+![alt text](images/320f612f-526e-4bef-ab38-6bd5d8027f40.png)
 
+This use case is about an AI agent assisting an operational manager - a manager of a warehouse to be exact. One of the responsibilities of the manager is to monitor product arrivals and departures at the dock, make sure inventory is up to date, and that handling of surplus product happens in a cost-effective manner. We apply an agentic solution based on watsonx Orchestrate and watsonx.ai to optimize this process.
 
 ## 🤔 The Problem
-
-ABC Motors Corp's sales department faced challenges in preparing sales proposals for their new line of high performance vehicles. Every time they release a new model, the competitive analysis team spends a great amount of time and resources to deliver their insights. Issues include: 
-
-- Manual research delays decisions and reduces productivity.
-
-- Weak positioning hampers sales differentiation.
-
-- Slow response to market changes without real-time intelligence.
+SmartStorage, a warehouse management company, faces significant challenges in its daily operations due to manual processes and limited visibility across its supply chain. These inefficiencies lead to delayed shipments, which in turn result in decreased customer satisfaction. The lack of real-time tracking and automation means that warehouse managers spend a considerable amount of time manually coordinating the movement of products, checking the status of warehouse docks, and managing inventory. This not only slows down the entire logistics process but also increases the likelihood of human error, further exacerbating delays and dissatisfaction. By addressing these issues, SmartStorage aims to improve its operational efficiency and enhance its service quality.
 
 ## 🎯 Objective
-
-ABC Motors Corp plans to implement an AI-powered Competitive Intelligence System to automate market research and competitor analysis. This system will help sales teams quickly identify and position their products against competitors, overcoming the inefficiencies of manual research and outdated insights. The goal is to create an AI-enabled system that supports competitive analysis and market research by:
-
-* Extract products from the company’s product catalog.
-* Identify and extract key features of each product.
-* Search for competitor products based on key attributes.
-* Generate a structured competitive comparison table with price, features, and differentiators.
-* Perform SWOT Analysis (Strengths, Weaknesses, Opportunities, and Threats) to provide deeper strategic insights.
-
-By automating these tasks, the company aims to accelerate sales processes, improve data accuracy, and enable sales teams to make informed decisions faster.
+The primary objective is to design and implement an Agentic AI-enabled system for warehouse management that leverages artificial intelligence to optimize the flow of products. This system is envisioned to retrieve the status of warehouse docks in real-time and find the optimal route for surplus products, thereby streamlining the logistics process. A key feature of the system is its natural language interface, which will allow warehouse managers to interact with the system intuitively, using voice or text commands to query the status of shipments, manage inventory, and adjust routes as needed. Furthermore, the system will be integrated with relevant in-house systems, ensuring seamless data exchange, and maximizing the benefits of automation. By achieving this objective, SmartStorage can significantly enhance its operational efficiency, reduce costs, and improve customer satisfaction.
 
 ## 📈 Business Value
+The implementation of an Agentic AI-enabled system for warehouse management is expected to deliver substantial business value to SmartStorage. Firstly, it will automate many manual tasks, thereby accelerating business processes and reducing the time spent on coordinating logistics. This automation will also minimize the risk of human error, leading to more reliable and efficient operations. Secondly, the system's natural language interface will enable intuitive interactions, making it easier for warehouse managers to use the system and access critical information in real-time. Lastly, the system's design will allow for flexible control over AI autonomy and human intervention, ensuring that warehouse managers can intervene when necessary while still benefiting from the efficiency gains provided by AI. Overall, the Agentic AI solution is poised to transform SmartStorage's warehouse management operations, driving improvements in efficiency, customer satisfaction, and ultimately, business profitability.
 
-* Reduction in manual competitor research time.
-* Automated, real-time updates on market competition.
-* Improved sales pitch effectiveness
+## 🏛️ Architecture
+![alt text](images/Intelligent%20Assistant%20Architecture.jpg)
 
-## 🏛 Architecture
-
-To streamline the competitive analysis process, we have designed a Multi-Agent AI Automation System that autonomously extracts and analyzes product data from [ABC Motors Corp's Product Catalog](assets/ABC_Motor_Product_Catalog.pdf). This system leverages a collaborative multi-agent approach, ensuring efficiency, accuracy, and real-time insights for sales and strategy teams. The architecture consists of specialized AI agents working together to perform key functions:
-  * To extract products from the product catalog
-  * Extract features of the product from the product catalog,
-  * Searches for competitor products
-  * Generates a structured competitive comparison table
-  * Strengths, Weaknesses, Opportunities, and Threats (SWOT) Analysis
-
-This system harnesses the combined power of  a watsonx Orchestrate agent and a watsonx.ai agent, working seamlessly together to automate competitive research, strengthen sales pitches, and minimize manual effort.
-
-<img width="900" alt="image" src="assets/Business_Automation_Architecture.png">
-
-This use case utilizes the capabilities of a watsonx Orchestrate agent to extract product-specific information (such as names and features) from the product catalog and to perform product comparisons. These agents are supported by a specialized agent developed in the watsonx.ai Agent Lab, and all are integrated within watsonx Orchestrate. Through the watsonx Orchestrate chat assistant, the agents collaborate and delegate tasks smoothly, delivering comprehensive insights and enabling informed decision-making.
-
-  * **Product Agent** : This agent serves as the entry point for all queries and is designed to search for a specified product, retrieving its details and features in a structured format from the product catalog. It ensures clarity and organization by systematically presenting key product information, making it easy to understand and utilize. Additionally, it delegates tasks to the Comparison Agent for further processing.
-
-  * **Comparison Agent** : This agent handles the end-to-end process of product comparison. It first identifies and collects URLs for similar products based on matching features. Then, using these links, it analyzes competitor offerings, extracts key insights, and generates a detailed SWOT analysis for each product. The findings are presented in a clear, structured table format to enable quick and effective comparison.
-
-## 📝 Step-by-step Hands-on Lab
-You can find step-by-step instructions here :
-
-[Step-by-step hands-on guide](./hands-on-lab-buisness-automation.md)
+## 📄 Step-by-step Hands-on Instructions
+You can find step-by-step instructions in [this document](./Intelligent%20AI%20Assistant.md). It shows how you can implement the use case using watsonx.ai and watsonx Orchestrate. 
 
 ## Demo Video
-A video demo of the solution is below:
+A video demo of the solution is here:
 
-https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/453165/79bf26c4-69c8-4096-ab88-5f9fc38791e5
-
-
-
+https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/13654/480f782f-679b-4fea-8b23-19d95205a862
