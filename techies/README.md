@@ -17,7 +17,7 @@ The implementation of an Agentic AI-enabled system for warehouse management is e
 ![alt text](images/Intelligent%20Assistant%20Architecture.jpg)
 
 ## 📄 Step-by-step Hands-on Instructions
-You can find step-by-step instructions in [this document](./Intelligent%20AI%20Assistant advanced.md). It shows how you can implement the use case using watsonx.ai and watsonx Orchestrate. 
+You can find step-by-step instructions in [this document](./Intelligent%20AI%20Assistant%20advanced.md). It shows how you can implement the use case using watsonx.ai and watsonx Orchestrate. 
 
 ## Demo Video
 A video demo of the solution is here:
