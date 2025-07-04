@@ -1,5 +1,11 @@
 # Use case: Intelligent AI Assistant
 
+
+
+
+
+
+
 ## Table of Contents
 
 - [Use case: Intelligent AI Assistant](#use-case-intelligent-ai-assistant)
@@ -30,9 +36,10 @@ Even though we will take you through a complete and working example, you should 
 </div>
 
 ### Pre-requisites
-
+- Go to https://techzone.ibm.com/my/workshops/student/685d46f8696e290bd7f025bb
 - Check with your instructor to make sure **all systems** are up and running before you continue.
-- If you're an instructor running this lab, check the **Instructor's guides** to set up all environments and systems.
+
+
 
 ## watsonx Orchestrate
 
@@ -397,7 +404,7 @@ On the following screen, enter details about the imported agent:
   - Provider: `watsonx.ai`
   - Authentication type: leave as `API key`
   - API key: enter the key provided to you by your instructor
-  - Service instance URL: https://us-south.ml.cloud.ibm.com/ml/v4/deployments/3a782f2b-53f1-41bd-81cd-651187564012/ai_service_stream?version=2021-05-01
+  - Service instance URL: [enter the value provided to you by your instructor](https://us-south.ml.cloud.ibm.com/ml/v4/deployments/3a782f2b-53f1-41bd-81cd-651187564012/ai_service_stream?version=2021-05-01)
 - Define new agent
   - Display name: `TrafficAgent` (the name cannot contain a space)
   - Description of agent capabilities: `The TrafficAgent agent provides information about traffic in any given location.`

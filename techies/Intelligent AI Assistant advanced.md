@@ -31,9 +31,8 @@ Even though we will take you through a complete and working example, you should 
 </div>
 
 ### Pre-requisites
-
+- Go to https://techzone.ibm.com/my/workshops/student/685d46f8696e290bd7f025bb
 - Check with your instructor to make sure **all systems** are up and running before you continue.
-- If you're an instructor running this lab, check the **Instructor's guides** to set up all environments and systems.
 - Install and validate python 3.13 on your device.
 - Navigate to your preferred IDE (e.g. VS Code) and create a virtual environment
 - Install the Watson [IBM watsonx Orchestrate ADK](https://developer.watson-orchestrate.ibm.com/getting_started/installing) and verify it is working
